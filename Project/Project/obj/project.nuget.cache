@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3lBCXuR80JmOhH3Il5WkI+9/OyT+OELk9/8a1Nw2wUezO6dk7FmXUbuqMqSY1lHliDCFO2D1vA/s5Opt7kb4QQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sofia\\OneDrive\\Bureaublad\\graduaat\\OOP\\Project\\Project\\Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sofia\\.nuget\\packages\\csvhelper\\31.0.2\\csvhelper.31.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

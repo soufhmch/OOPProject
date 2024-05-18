@@ -1,0 +1,108 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{1A6FE471-B3EB-423C-82C0-534C98A4592E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>project1010</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\ProjectEvaluation\project.metadata.v7.bin" />
+    <None Include=".vs\ProjectEvaluation\project.projects.v7.bin" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\Project\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\Project\FileContentIndex\131c1c6a-0c3c-4bd0-8be2-5b432da85047.vsidx" />
+    <None Include=".vs\Project\FileContentIndex\5885fef1-ce10-4623-b425-2d5204706679.vsidx" />
+    <None Include=".vs\Project\FileContentIndex\7886ac84-5262-498d-9f75-dbb34d64aa6a.vsidx" />
+    <None Include=".vs\Project\FileContentIndex\88aedb63-f09e-4206-97f6-6b9d207564af.vsidx" />
+    <None Include=".vs\Project\FileContentIndex\f20ce0be-a56a-4449-b9f0-040a12d2f5ec.vsidx" />
+    <None Include=".vs\Project\v17\.futdcache.v2" />
+    <None Include=".vs\Project\v17\.suo" />
+    <None Include=".vs\Project\v17\.wsuo" />
+    <None Include=".vs\Project\v17\DocumentLayout.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="Project\books.csv" />
+    <None Include="Project\ClassDiagram1.cd" />
+    <None Include="Project\obj\Debug\net6.0\Project.AssemblyInfoInputs.cache" />
+    <None Include="Project\obj\Debug\net6.0\Project.assets.cache" />
+    <None Include="Project\obj\Debug\net6.0\Project.csproj.AssemblyReference.cache" />
+    <None Include="Project\obj\Debug\net6.0\Project.csproj.CoreCompileInputs.cache" />
+    <None Include="Project\obj\Debug\net6.0\Project.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="Project\obj\project.assets.json" />
+    <None Include="Project\obj\Project.csproj.nuget.dgspec.json" />
+    <None Include="Project\obj\Project.csproj.nuget.g.props" />
+    <None Include="Project\obj\Project.csproj.nuget.g.targets" />
+    <None Include="Project\obj\project.nuget.cache" />
+    <None Include="Project\obj\Release\net6.0\Project.AssemblyInfoInputs.cache" />
+    <None Include="Project\obj\Release\net6.0\Project.assets.cache" />
+    <None Include="Project\obj\Release\net6.0\Project.csproj.AssemblyReference.cache" />
+    <None Include="Project\obj\Release\net6.0\Project.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="Project\Project.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Project\Books.cs" />
+    <Compile Include="Project\Libary.cs" />
+    <Compile Include="Project\Magazine.cs" />
+    <Compile Include="Project\Newspaper.cs" />
+    <Compile Include="Project\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="Project\obj\Debug\net6.0\Project.AssemblyInfo.cs" />
+    <Compile Include="Project\obj\Debug\net6.0\Project.GlobalUsings.g.cs" />
+    <Compile Include="Project\obj\Release\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="Project\obj\Release\net6.0\Project.AssemblyInfo.cs" />
+    <Compile Include="Project\obj\Release\net6.0\Project.GlobalUsings.g.cs" />
+    <Compile Include="Project\Program.cs" />
+    <Compile Include="Project\ReadingRoomItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Project\obj\Debug\net6.0\Project.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\project1010\v17\" />
+    <Folder Include="Project\bin\Debug\net6.0\" />
+    <Folder Include="Project\bin\Release\net6.0\" />
+    <Folder Include="Project\obj\Debug\net6.0\refint\" />
+    <Folder Include="Project\obj\Debug\net6.0\ref\" />
+    <Folder Include="Project\obj\Release\net6.0\refint\" />
+    <Folder Include="Project\obj\Release\net6.0\ref\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

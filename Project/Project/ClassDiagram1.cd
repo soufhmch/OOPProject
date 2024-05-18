@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Project.Library">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAAAAAAAAAABAAAACAAIAQAgAQCAAAAAACEEAAAhAA=</HashCode>
+      <FileName>Libary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Magazine">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAABBAAAAAAgAAAAAAAAAAQAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Magazine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Newspaper">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAgAAAAAAAAAAAAAAABAAAAAQAAAAA=</HashCode>
+      <FileName>Newspaper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Program">
+    <Position X="12.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.ReadingRoomItem" Collapsed="true">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAABQAAAAEAgCAAAIAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReadingRoomItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
